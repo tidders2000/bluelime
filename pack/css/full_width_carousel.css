@@ -1,0 +1,420 @@
+/*
+  StyleSheet For Responsive Bootstrap Carousel 4
+  Author: szthemes
+  Item Name: Responsive Bootstrap Carousel 4
+  Author URI: http://codecanyon.net/user/szthemes
+  Description: Different Types of Bootstrap Carousel 4
+
+								Content List
+  -----------------------------------------------------------------------------------
+	NAME ----------------------------------------LINE NUMBER--------------------- #
+	FULL WIDTH CAROUSEL -------------------------31------------------------------ 01
+	RESPONSIVE ----------------------------------182----------------------------- 02	
+	COLORS --------------------------------------263----------------------------- 03	
+	[ Note: Line Numbers Are According To Notepad++ ]
+  ------------------------------------------------------------------
+							Fonts Styles
+  ------------------------------------------------------------------
+	  'Raleway', sans-serif ---------------------------------- 01
+	            FontAwesome ---------------------------------- 02
+  ------------------------------------------------------------------
+							Color Codes
+  ------------------------------------------------------------------
+	NAME    ------------------------RGB-------------------------- #
+	#ffffff -------------------rgb(255, 255, 255)---------------- 01
+	#000000 -------------------rgb(0, 0, 0)---------------------- 02
+	#f9bf36 -------------------rgb(249, 191, 54)----------------- 03 Replace Only This Color To Change Whole Color Scheme
+	#282828 -------------------rgb(40, 40, 40)------------------- 04 
+*/
+
+/*------------------------------------------------------*/
+/* FULL WIDTH CAROUSEL
+/*------------------------------------------------------*/
+
+.full_width_carousel_wrapper{
+  overflow: hidden;
+  max-height: 650px;
+  position: relative;
+}
+.full_width_carousel_wrapper > .carousel-inner > .carousel-item > img,
+.full_width_carousel_wrapper > .carousel-inner > .carousel-item > a > img{
+  opacity: 0.6;
+  margin: auto;
+  width: 100% !important;
+}
+/*---------- LEFT/RIGHT CONTROL ----------*/
+.full_width_carousel_control_left,
+.full_width_carousel_control_right{
+  top: 50%;
+  z-index: 2;
+  opacity: 0;
+  width: 55px;
+  height: 55px;
+  border: none;
+  text-align: center;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.full_width_carousel_wrapper:hover .full_width_carousel_control_left,
+.full_width_carousel_wrapper:hover .full_width_carousel_control_right{
+  opacity: 0.7;
+}
+.full_width_carousel_control_icons{
+  line-height: 50px;
+  font-size: 34px !important;
+  
+}
+.full_width_carousel_control_left{
+  left: 1% !important;
+}
+.full_width_carousel_control_right{
+  right: 1% !important;
+}
+/*---------- CAPTION ----------*/
+.full_width_carousel_caption{
+  left: 10%;
+  z-index: 1;
+  width: 35%;
+  bottom: 45%;
+  text-shadow: none;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.full_width_carousel_caption_right{
+  left: 56%;
+}
+.full_width_carousel_caption_center{
+  left: 15%;
+  width: 70%;
+}
+.full_width_carousel_caption h2{
+  font-size: 30px;
+  margin: 0px 0px 15px 0px;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
+  animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
+}
+.full_width_carousel_caption h1{
+  font-size: 45px;
+  font-weight: 800;
+  margin: 0px 0px 40px 0px;
+  text-transform: capitalize;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -webkit-animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
+  animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
+}
+.full_width_carousel_button_colored,
+.full_width_carousel_button_colored:visited{
+  outline: 0;
+  width: auto;
+  height: 44px;
+  border: none;
+  margin: 0 10px;
+  padding: 0 23px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  text-shadow: none;
+  line-height: 44px;
+  position: relative;
+  font-style: normal;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  font-family: 'Raleway', sans-serif;
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  -webkit-box-sizing:initial !important;
+  -moz-box-sizing:initial !important;
+  box-sizing:initial !important;	
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: color 0.3s ease-in-out 0s;
+  transition: color 0.3s ease-in-out 0s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
+  animation-timing-function: cubic-bezier(.65,1.95,.03,.32);
+}
+.full_width_carousel_button_colored:before{
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px;
+  border-radius: 4px; 
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out 0s;
+  transition: transform 0.3s ease-in-out 0s;
+}
+.full_width_carousel_button_colored:hover,
+.full_width_carousel_button_colored:active,
+.full_width_carousel_button_colored:focus{
+  box-shadow: none;	
+  outline: none !important;
+}
+.full_width_carousel_button_colored:hover:before,
+.full_width_carousel_button_colored:focus:before,
+.full_width_carousel_button_colored:active:before{
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+}
+
+/*------------------------------------------------------*/
+/* RESPONSIVE
+/*------------------------------------------------------*/
+
+/*---------- MEDIA 480px ----------*/
+@media only screen and (max-width: 480px){
+  /*---------- LEFT/RIGHT CONTROL ----------*/
+  .full_width_carousel_control_left,
+  .full_width_carousel_control_right{
+    display: none;
+  }
+  /*---------- CAPTION ----------*/
+  .full_width_carousel_caption{
+    top: 20%;
+	left: 0;
+    width: 100%;
+    bottom: auto;
+    padding: 0;
+  }
+  .full_width_carousel_caption h2{
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+  }
+  .full_width_carousel_caption h1{
+    font-size: 25px;
+    margin: 0px 0px 10px 0px;
+  }
+  .full_width_carousel_button_colored,
+  .full_width_carousel_button_colored:visited{
+    margin: 0 0;
+    height: 34px;
+    padding: 0 13px;
+  line-height: 34px;
+  }
+}
+
+/*---------- MEDIA 481px - 600px ----------*/
+@media (min-width: 481px) and (max-width: 600px){
+  /*---------- LEFT/RIGHT CONTROL ----------*/
+  .full_width_carousel_control_left,
+  .full_width_carousel_control_right{
+    top: 40%;
+  }
+  /*---------- CAPTION ----------*/
+  .full_width_carousel_caption{
+    left: 0;
+	top: 5%;
+    width: 100%;
+	bottom: auto;
+  }
+}
+
+/*---------- MEDIA 601px - 767px ----------*/
+@media (min-width: 601px) and (max-width: 767px){
+  /*---------- LEFT/RIGHT CONTROL ----------*/
+  .full_width_carousel_control_left,
+  .full_width_carousel_control_right{
+    top: 40%;
+  }
+  /*---------- CAPTION ----------*/
+  .full_width_carousel_caption{
+    left: 0;
+	top: 20%;
+    width: 100%;
+	bottom: auto;
+  }
+}
+
+/*---------- MEDIA 768px - 991px ----------*/
+@media (min-width: 768px) and (max-width: 991px){
+  /*---------- LEFT/RIGHT CONTROL ----------*/
+  .full_width_carousel_control_left,
+  .full_width_carousel_control_right{
+    top: 40%;
+  }
+  /*---------- CAPTION ----------*/
+  .full_width_carousel_caption{
+	top: 15%;
+	bottom: auto;
+  }
+}
+
+/*---------- MEDIA 992px - 1250px ----------*/
+@media (min-width: 992px) and (max-width: 1250px){
+  /*---------- LEFT/RIGHT CONTROL ----------*/
+  .full_width_carousel_control_left,
+  .full_width_carousel_control_right{
+    top: 40%;
+  }
+  /*---------- CAPTION ----------*/
+  .full_width_carousel_caption{
+	top: 25%;
+	bottom: auto;
+  }
+}
+
+/*------------------------------------------------------*/
+/* COLORS (ORANGE)
+/*------------------------------------------------------*/
+
+.full_width_carousel_wrapper{
+  background: #000000;
+}
+/*---------- LEFT/RIGHT CONTROL ----------*/
+.full_width_carousel_control_left,
+.full_width_carousel_control_left:hover,
+.full_width_carousel_control_left:active,
+.full_width_carousel_control_left:focus,
+.full_width_carousel_control_right,
+.full_width_carousel_control_right:hover,
+.full_width_carousel_control_right:active,
+.full_width_carousel_control_right:focus{
+  color: #ffffff;
+  background: #f9bf36 !important;
+}
+/*---------- CAPTION ----------*/
+.full_width_carousel_caption h2,
+.full_width_carousel_caption h1{
+  color: #ffffff;
+}
+.full_width_carousel_button_colored,
+.full_width_carousel_button_colored:visited{
+  color: #ffffff;
+}
+.full_width_carousel_button_colored:hover,
+.full_width_carousel_button_colored:active,
+.full_width_carousel_button_colored:focus{
+  color: #ffffff !important;
+}
+.full_width_carousel_button_colored,
+.full_width_carousel_button_colored:visited{
+  background: #000000;
+}
+.full_width_carousel_button_colored:hover,
+.full_width_carousel_button_colored:active,
+.full_width_carousel_button_colored:focus{
+  background: #000000 !important;
+}
+.full_width_carousel_button_colored:before{
+  background: #f9bf36;
+}
+/*------------------------------------------------------*/
+/* SLIDING TIMING FUNCTIONS
+/*------------------------------------------------------*/
+/*---------- ps_ease ----------*/
+.ps_ease .carousel-item{
+  -webkit-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+/*---------- ps_easeInOut ----------*/
+.ps_easeInOut .carousel-item{
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+/*---------- ps_speedy ----------*/
+.ps_speedy .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0,1,0,1);
+  transition-timing-function: cubic-bezier(0,1,0,1);
+}
+/*---------- ps_slowSpeedy ----------*/
+.ps_slowSpeedy .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0.3,1,0,1);
+  transition-timing-function: cubic-bezier(0.3,1,0,1);
+}
+/*---------- ps_easeOutInCubic ----------*/
+.ps_easeOutInCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(0.22,0.81,0.01,0.99);
+  transition-timing-function: cubic-bezier(0.22,0.81,0.01,0.99);
+}
+/*---------- ps_swing ----------*/
+.ps_swing .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.02,.01,.47,1);
+  transition-timing-function: cubic-bezier(.02,.01,.47,1);
+}
+/*---------- ps_easeOutCubic ----------*/
+.ps_easeOutCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.215,.61,.355,1);
+  transition-timing-function: cubic-bezier(.215,.61,.355,1);
+}
+/*---------- ps_easeInOutCubic ----------*/
+.ps_easeInOutCubic .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.645,.045,.355,1);
+  transition-timing-function: cubic-bezier(.645,.045,.355,1);
+}
+/*---------- ps_easeOutCirc ----------*/
+.ps_easeOutCirc .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.075,.82,.165,1);
+  transition-timing-function: cubic-bezier(.075,.82,.165,1);
+}
+/*---------- ps_easeOutExpo ----------*/
+.ps_easeOutExpo .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.19,1,.22,1);
+  transition-timing-function: cubic-bezier(.19,1,.22,1);
+}
+/*---------- ps_easeInQuad ----------*/
+.ps_easeInQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+  transition-timing-function: cubic-bezier(.55,.085,.68,.53);
+}
+/*---------- ps_easeOutQuad ----------*/
+.ps_easeOutQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+  transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+}
+/*---------- ps_easeInOutQuad ----------*/
+.ps_easeInOutQuad .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+  transition-timing-function: cubic-bezier(.455,.03,.515,.955);
+}
+/*---------- ps_easeOutQuart ----------*/
+.ps_easeOutQuart .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.165,.84,.44,1);
+  transition-timing-function: cubic-bezier(.165,.84,.44,1);
+}
+/*---------- ps_easeInOutQuart ----------*/
+.ps_easeInOutQuart .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.77,0,.175,1);
+  transition-timing-function: cubic-bezier(.77,0,.175,1);
+}
+/*---------- ps_easeOutQuint ----------*/
+.ps_easeOutQuint .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.23,1,.32,1);
+  transition-timing-function: cubic-bezier(.23,1,.32,1);
+}
+/*---------- ps_easeInSine ----------*/
+.ps_easeInSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.47,0,.745,.715);
+  transition-timing-function: cubic-bezier(.47,0,.745,.715);
+}
+/*---------- ps_easeOutSine ----------*/
+.ps_easeOutSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.39,.575,.565,1);
+  transition-timing-function: cubic-bezier(.39,.575,.565,1);
+}
+/*---------- ps_easeInOutSine ----------*/
+.ps_easeInOutSine .carousel-item{
+  -webkit-transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+  transition-timing-function: cubic-bezier(.445,.05,.55,.95);
+}
+/*---------- END ----------*/
