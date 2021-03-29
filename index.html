@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>RSC| Home RSC Recruitment</title>
+  <title>RSC| Home RSC</title>
 
   <meta charset="utf-8">
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="RSC">
+  <meta name="description" content="RCS have all the tools you need to enable a fast and direct platform to better build your business">
 
   <!-- Google Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
 
+  <!-- fontawesome-->
+  <script src="https://kit.fontawesome.com/6cdfe06436.js" crossorigin="anonymous"></script>
 
   <!-- Css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -24,13 +29,27 @@
   <link rel="stylesheet" href="css/spacings.css" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/color.css" />
+  <link rel="stylesheet" href="css/custom.css" />
 
   <!-- Favicons -->
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-   <script src="https://kit.fontawesome.com/6cdfe06436.js" crossorigin="anonymous"></script>
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
 
 </head>
 
@@ -38,107 +57,6 @@
 
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
 <style>
-.owl-prev ,.owl-next{
-  opacity:0.6!important;
-
-}
-
-.owl-prev{
-  left:0;
-}
-
-.owl-next{
-  right:0;
-}
-
-
-.rsc_text{
-font-size:20px;
-color:white;
-}
-
-.pad{
-  margin-top:30px;
-}
-
-p{
-  font-family: 'Montserrat', sans-serif!important;
-}
-ul{
-  font-family: 'Montserrat', sans-serif!important;
-  font-size: 20px;
-}
-h1 h2 h3 h4 h5 h6 {
- font-family: 'Montserrat', sans-serif!important;
-}
-#slider1 {
-  height:700px!important;
-}
-
-.client-logo img{
-  padding-top:50px;
-  padding-bottom:50px;
-}
-
-.client-logo{
-  border-bottom:none!important;
-}
-
-form{
-  width:95%;
-   font-family: 'Montserrat', sans-serif!important;
-}
-
-span{
-   font-family: 'Montserrat', sans-serif!important;
-}
-
-.process-wrap img{
-  width:120px;
-  height:120px;
-}
-
-
-.services-text{
-  color:#808080;
-}
-.sh{
-background-color: white; 
-margin:0!important;
-padding-top: 20px;
-}
-
-.call-to-action{
-  background-color:#f7f7f7!important ;
-}
-@media (max-width: 576px) { 
-  .owl-wrapper-outer{
-    height:300px!important;
-  }
-#owl-slider-one-img .owl-wrapper-outer{
-  height:629px!important;
-}
-.hero-subtitle {
-  font-size: 12px!important;
-}
-.hero-message{
-vertical-align: 0px!important;
-}
-.hero-message h1{
- font-size:18px!important;
- padding-top: 5px!important;
-}
-.hero-message p{
-display: inline!important;
-}
-ul{
-  font-size: 12px!important;
-}
-
-.small-align{
-  vertical-align: middle!important;
-}
- }
 
 </style>
 
@@ -225,7 +143,7 @@ ul{
     <section class="hero-wrap owl-carousel owl-theme bg-dark text-center" id="owl-slider-one-img">
 
       <div class="item">
-        <section class="hero-wrap" style="background-image: url(img/welcome.jpg)">
+        <section class="hero-wrap" style="background-image: url(img/welcome.jpg)" alt="welcome image">
           <div class="container container-full-height">
             <div class="hero-holder">
               <div class="hero-message small-align">
@@ -243,7 +161,7 @@ ul{
       </div>
 
       <div class="item">
-        <section class="hero-wrap" style="background-image: url(img/welcome_2.jpg)">
+        <section class="hero-wrap" style="background-image: url(img/welcome_2.jpg)" alt="welcome image of people">
           <div class="container container-full-height">
             <div class="hero-holder">
               <div class="hero-message small-align">
@@ -260,7 +178,7 @@ ul{
       </div>
 
       <div class="item">
-        <section class="hero-wrap" style="background-image: url(img/welcome_3.jpg)">
+        <section class="hero-wrap" style="background-image: url(img/welcome_3.jpg)" alt="welcome image of workers">
           <div class="container container-full-height">
             <div class="hero-holder">
               <div class="hero-message small-align">
@@ -290,7 +208,7 @@ ul{
              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
             </p>
 
-            <img src="img/rsc_logo_2.png" alt="" />
+            <img src="img/rsc_logo_2.png" alt="RSC logo" />
           </div>
 
         </div>
@@ -317,7 +235,7 @@ ul{
       <section class="hero-wrap">
         <section class="hero-wrap" style="background-image: url(img/background.jpg)">
         <div class="container container-full-height">
-          <img src="img/audit_infographic.png"/>
+          <img src="img/audit_infographic.png" alt="audit infographic"/>
         </div>
       </section>
     </div>
@@ -341,7 +259,7 @@ ul{
       <h2 class="sh">PROCUREMENT</h2>
       <section class="hero-wrap" style="background-image: url(img/background.jpg)">
         <div class="container container-full-height">
-          <img src="img/buying_infographic.png"/>
+          <img src="img/buying_infographic.png" alt="buying infographic"/>
         </div>
       </section>
     </div>
@@ -364,7 +282,7 @@ ul{
       <h2 class="sh">RSC RECRUITMENT</h2>
       <section class="hero-wrap" style="background-image: url(img/background.jpg);">
         <div class="container container-full-height">
-          <img src="img/recruitment_infographic.png"/>
+          <img src="img/recruitment_infographic.png" alt="recruitment infographic"/>
         </div>
       </section>
     </div>
@@ -392,23 +310,6 @@ ul{
   
     
 
-    <!-- Portfolio -->
-   
-
-    <!-- Call to Action -->
-    <section class="call-to-action">
-      <div class="container">
-      <!--  <div class="row">
-          <div class="col-md-9 col-xs-12">    
-            <h2>Have You Fallen In Love Already With Our Works?</h2>
-          </div>
-          
-          <div class="col-md-3 col-xs-12 cta-button">
-            <a href="#" class="btn btn-lg btn-color">View Portfolio</a>
-          </div>
-        </div>-->
-      </div>
-    </section> <!-- end call to action -->
 
 
     <!-- Process -->
@@ -429,7 +330,7 @@ ul{
             <div class="process-item">
               <div class="process-wrap text-center">
           
-             <img  src="img/welisten_icon_white.jpg"/>
+             <img  src="img/welisten_icon_white.jpg" alt="we listen icon"/>
                 
                 <h3>1. We Listen</h3>
               </div>
@@ -439,7 +340,7 @@ ul{
           <div class="col-sm-5ths">
             <div class="process-item">
               <div class="process-wrap text-center">
-             <img  src="img/weunderstand_white.jpg"/>
+             <img  src="img/weunderstand_white.jpg" alt="we understand icon"/>
                 <h3>2. We Understand</h3>
               </div>
             </div>
@@ -448,7 +349,7 @@ ul{
           <div class="col-sm-5ths">
             <div class="process-item">
               <div class="process-wrap text-center">
-                     <img  src="img/weplan_white.jpg"/>
+                     <img  src="img/weplan_white.jpg" alt="we plan icon"/>
                
               
                 
@@ -462,7 +363,7 @@ ul{
           <div class="col-sm-5ths">
             <div class="process-item">
               <div class="process-wrap text-center">
-                  <img  src="img/wedevelop_white.jpg"/>
+                  <img  src="img/wedevelop_white.jpg" alt="we develop icon"/>
                 <h3>4. We Develop</h3>
               </div>
             </div>
@@ -471,7 +372,7 @@ ul{
           <div class="col-sm-5ths">
             <div class="process-item last">
               <div class="process-wrap text-center">
-                      <img  src="img/wedeliver_white.jpg"/>
+                      <img  src="img/wedeliver_white.jpg" alt="we deliver icon"/>
                 <h3>5. We Deliver</h3>
               </div>
             </div>
@@ -497,7 +398,7 @@ ul{
           <div class="col-md-6 col-sm-6 team-wrap">
             <div class="team-member text-center">
               <div class="team-img">
-                <img src="img/staff_01.jpg" alt="">
+                <img src="img/staff_01.jpg" alt="Ian Martin">
                 <div class="overlay">
                   <div class="team-details text-center">
                     <p>
@@ -520,7 +421,7 @@ ul{
           <div class="col-md-6 col-sm-6 team-wrap">
             <div class="team-member text-center">
               <div class="team-img">
-                <img src="img/staff_02.jpg" alt="">
+                <img src="img/staff_02.jpg" alt=" Lorraine Jones">
                 <div class="overlay">
                   <div class="team-details text-center">
                     <p>
@@ -547,17 +448,7 @@ ul{
     </section> <!-- end our team -->
 
 
-    <!-- About us / Progress Bars 
-    <section class="section-wrap pt-110">
-      <div class="container">
-        <div class="row mt-minus-30">
-          <div class="col-sm-12">
-            <div class="about-description mt-30">
-                <h2 class="text-center bottom-line">About Ian Martin</h2>
-              
-            </div>
-            
-          </div>  -->
+ 
           
           
 <section>
@@ -579,7 +470,7 @@ ul{
       <h2 class="sh">DANI?</h2>
       <section class="hero-wrap" style="background-image: url(img/background.jpg)">
         <div class="container container-full-height">
-          <img src="img/ianmartin_infographic.png"/>
+          <img src="img/ianmartin_infographic.png" alt="ian martin info graphic"/>
         </div>
       </section>
     </div>
@@ -725,27 +616,16 @@ ul{
 
         <div class="row" >
           <div class="col-sm-4 client-logo " style="background-color:white;">
-            <img src="img/rcapital_logo.jpg" alt="">
+            <img src="img/rcapital_logo.jpg" alt="rcapital logo">
           </div>
           <div class="col-sm-4 client-logo" style="background-color:white;">
-            <img src="img/chs_logo.jpg" alt="">
+            <img src="img/chs_logo.jpg" alt=" chs logo">
           </div>
           <div class="col-sm-4 client-logo" style="background-color:white;">
-            <img src="img/bowmark_logo.jpg" alt="">
+            <img src="img/bowmark_logo.jpg" alt="bowmark logo">
           </div>
         </div>
-       <!-- <div class="row second-row">
-          <div class="col-sm-4 client-logo">
-            <img src="img/rcapital_logo.jpg" alt="">
-          </div>
-          <div class="col-sm-4 client-logo">
-            <img src="img/client_logo_5.png" alt="">
-          </div>
-          <div class="col-sm-4 client-logo">
-            <img src="img/client_logo_6.png" alt="">
-          </div>
-        </div>
-      </div>  -->    
+  
     </section> <!-- end clients -->
 
     <!-- Contact -->
@@ -828,7 +708,7 @@ ul{
             </div> <!-- end socials -->
 
             <span class="copyright text-center">
-              &copy;<script>document.write( new Date().getFullYear() );</script> RSC |  Development by <a href="https://deothemes.com">Bluelime</a>
+              &copy;<script>document.write( new Date().getFullYear() );</script> RSC |  Development by <a href="http://bluelime.co.uk">Bluelime</a>
             </span>
 
       
@@ -848,8 +728,8 @@ ul{
     1. Generate your key here - https://developers.google.com/maps/documentation/javascript/get-api-key
     2. Paste your key in the script below.
   -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBQfywSFKLRebC58g94sch64XX8eaGvLxw"></script>
-  <script type="text/javascript" src="js/gmap3.js"></script>
+  
+ 
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
   <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
@@ -860,43 +740,7 @@ ul{
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
   <!-- Google Map -->
-  <script type="text/javascript">
-    $(document).ready( function(){
-
-      var gmapDiv = $("#google-map");
-      var gmapMarker = gmapDiv.attr("data-address");
-
-      gmapDiv.gmap3({
-        zoom: 16,
-        address: gmapMarker,
-        oomControl: true,
-        navigationControl: true,
-        scrollwheel: false,
-        styles: [
-          {
-          "featureType":"all",
-          "elementType":"all",
-            "stylers":[
-              { "saturation":"-70" }
-            ]
-        }]
-      })
-      .marker({
-        address: gmapMarker,
-        icon: "img/map_pin.png"
-      })
-      .infowindow({
-        content: "V Tytana St, Manila, Philippines"
-      })
-      .then(function (infowindow) {
-        var map = this.get(0);
-        var marker = this.get(1);
-        marker.addListener('click', function() {
-          infowindow.open(map, marker);
-        });
-      });
-    });
-  </script>
+  
 
 </body>
 </html>

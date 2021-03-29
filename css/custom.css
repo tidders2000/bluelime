@@ -1,0 +1,108 @@
+
+/*fix buttons off screen on owl*/
+.owl-prev ,.owl-next{
+    opacity:0.6!important;
+  
+  }
+  
+  .owl-prev{
+    left:0;
+  }
+  
+  .owl-next{
+    right:0;
+  }
+  
+  
+  .rsc_text{
+  font-size:20px;
+  color:white;
+  }
+  
+  .pad{
+    margin-top:30px;
+  }
+  
+  p{
+    font-family: 'Montserrat', sans-serif!important;
+  }
+  ul{
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 20px;
+  }
+  h1 h2 h3 h4 h5 h6 {
+   font-family: 'Montserrat', sans-serif!important;
+  }
+  #slider1 {
+    height:700px!important;
+  }
+  
+  .client-logo img{
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  
+  .client-logo{
+    border-bottom:none!important;
+  }
+  
+
+/*width keep form on screen all devices*/
+  form{
+    width:95%;
+     font-family: 'Montserrat', sans-serif!important;
+  }
+  
+  span{
+     font-family: 'Montserrat', sans-serif!important;
+  }
+  
+  .process-wrap img{
+    width:120px;
+    height:120px;
+  }
+  
+  
+  .services-text{
+    color:#808080;
+  }
+  .sh{
+  background-color: white; 
+  margin:0!important;
+  padding-top: 20px;
+  }
+  
+  .call-to-action{
+    background-color:#f7f7f7!important ;
+  }
+
+  /*fix slider alignment issuess*/
+  @media (max-width: 576px) { 
+    .owl-wrapper-outer{
+      height:300px!important;
+    }
+  #owl-slider-one-img .owl-wrapper-outer{
+    height:629px!important;
+  }
+  .hero-subtitle {
+    font-size: 12px!important;
+  }
+  .hero-message{
+  vertical-align: 0px!important;
+  }
+  .hero-message h1{
+   font-size:18px!important;
+   padding-top: 5px!important;
+  }
+  .hero-message p{
+  display: inline!important;
+  }
+  ul{
+    font-size: 12px!important;
+  }
+  
+  .small-align{
+    vertical-align: middle!important;
+  }
+   }
+  
