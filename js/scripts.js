@@ -453,6 +453,7 @@
                 navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
+                lazyLoad: true,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
          
             });
@@ -462,6 +463,7 @@
 
                 // transitionStyle: "fadeUp",
                 autoHeight: true,
+                lazyLoad: true,
                 navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
@@ -475,6 +477,7 @@
 
                 // transitionStyle: "fadeUp",
                 autoHeight: true,
+                lazyLoad: true,
                 navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
