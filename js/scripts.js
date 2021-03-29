@@ -448,7 +448,7 @@
             // Owl Hero Slider
             $("#owl-slider-one-img").owlCarousel({
 
-                transitionStyle: "fadeUp",
+                // transitionStyle: "fadeUp",
                 autoHeight: true,
                 navigation: true,
                 slideSpeed: 300,
@@ -456,6 +456,32 @@
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
          
             });
+
+             // Owl Hero Slider 2
+             $("#owl-slider-two-img").owlCarousel({
+
+                // transitionStyle: "fadeUp",
+                autoHeight: true,
+                navigation: true,
+                slideSpeed: 300,
+                singleItem: true,
+                navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+         
+            });
+
+
+             // Owl Hero Slider 3
+             $("#owl-slider-three-img").owlCarousel({
+
+                // transitionStyle: "fadeUp",
+                autoHeight: true,
+                navigation: true,
+                slideSpeed: 300,
+                singleItem: true,
+                navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+         
+            });
+
 
 
         })(jQuery);
