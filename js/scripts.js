@@ -142,7 +142,7 @@
         e.preventDefault();
     });
 
-
+  
     /* IE Detect
     -------------------------------------------------------*/
     if(Function('/*@cc_on return document.documentMode===10@*/')()){ $("html").addClass("ie"); }
@@ -583,3 +583,4 @@ function container_full_height_init(){
         $(".container-full-height").height($(window).height());
     })(jQuery);
 }
+
