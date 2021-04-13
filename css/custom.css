@@ -33,6 +33,8 @@
   h1 h2 h3 h4 h5 h6 {
    font-family: 'Montserrat', sans-serif!important;
   }
+
+  a{ font-family: 'Montserrat', sans-serif!important;}
   #slider1 {
     height:700px!important;
   }
