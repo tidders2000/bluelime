@@ -35,6 +35,11 @@
   }
 
   a{ font-family: 'Montserrat', sans-serif!important;}
+
+  .footer-socials a{
+    font-size: 10px!important;
+    padding:40px;
+  }
   #slider1 {
     height:700px!important;
   }
