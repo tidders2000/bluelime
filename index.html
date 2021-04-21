@@ -51,7 +51,12 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
+  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function() {
+			emailjs.init("user_0lBHAUSVc18wA9j4fk6kg");
+		})();
+	</script>
 
 </head>
 
@@ -246,7 +251,8 @@
           <div class="hero-holder">
             <div class="hero-message">
               <h1>SALES AUDIT</h1>
-              <p class="hero-subtitle hidden-xs services-text">Audits are a fundamental element in all businesses over a certain size and of course are associated with the financial well-being of these companies.The life blood of any business, however, is its top line revenue and margin – so why would you not take the same approach with your sales department? Many businesses have benefited from the RSC Sales Audit; let this be the start of the journey to more predicable revenues and margins.
+              <p class="hero-subtitle hidden-xs services-text">Audits are a fundamental element in all businesses over a certain size and of course are associated with the financial well-being of these companies.
+                The life blood of any business, however, is its top line revenue and margin – so why would you not take the same approach with your sales department? Many businesses have benefited from the RSC Sales Audit; let this be the start of the journey to more predictable revenues and margins.
               </p>
        
             </div>
@@ -270,7 +276,7 @@
           <div class="hero-holder">
             <div class="hero-message">
               <h1>BUYING IS THE NEW PROCUREMENT</h1>
-              <p class="hero-subtitle  services-text">For any business that depends heavily / relies on their supply chain, the relationships and contact terms, here at RSC we have a proven track record of repositioning businesses to more favourable terms and to usher in a new era of collaboration between yourselves and your supply chain. Please see the things we cover when we start talking to your suppliers. Once we have completed our work we hope you will</p>
+              <p class="hero-subtitle  services-text">For any business that depends heavily relies on their supply chain the relationships and contact terms , here at RSC we have proven track record of repositioning business to more favourable terms and to usher in a new era of collaboration between yourselves and your supply chain please see the things we cover when we start talking to your suppliers once we have completed our work we hope you will agree buying is the new selling !</p>
             
             </div>
           </div>
@@ -293,7 +299,9 @@
           <div class="hero-holder">
             <div class="hero-message">
               <h1>RSC RECRUITMENT</h1>
-              <p class="hero-subtitle hidden-xs services-text">RSC Recruitment have been finding talent for over 12 years. We take the time to understand your business and its requirements, and then we get to work so you can focus on your objectives, safe in the knowledge that we are actively seeking the right people to help you grow your revenues or service your existing clients. We aim to send you three or four people who can do the job – the chemistry is up to you!l</p>
+              <p class="hero-subtitle hidden-xs services-text">RSC Recruitment have been finding talent for over 12 years. We take the time to understand your business and its requirements, and then we get to work so you can focus on your objectives, safe in the knowledge that we are actively seeking the right people to help you grow your revenues or service your existing clients. We aim to send you three or four people who can do the job – the chemistry is up to you!
+ 
+                Please see below our offering. We look forward to hopefully working with you in the future.</p>
               
             </div>
           </div>
@@ -383,7 +391,7 @@
     </section> <!-- process -->
 
     <!-- Our Team -->
-    <section class="section-wrap pb-0 our-team" id="about-us">
+    <!-- <section class="section-wrap pb-0 our-team" id="about-us">
       <div class="container">
 
         <div class="row heading">
@@ -416,7 +424,7 @@
               <h6 class="team-title">IAN MARTIN</h6>
               <span>Director</span>           
             </div>
-          </div> <!-- end team member -->
+          </div> 
 
           <div class="col-md-6 col-sm-6 team-wrap">
             <div class="team-member text-center">
@@ -445,7 +453,7 @@
 
         </div>
       </div>
-    </section> <!-- end our team -->
+    </section> 
 
 
  
@@ -483,7 +491,7 @@
               <h1>PROFESSIONAL PROFILE</h1>
               <p class="hero-subtitle hidden-xs services-text">A highly motivated and experienced seniorexecutive with many years working with and forPE houses / VC’s securing new revenues andmargin for portfolio companies, seen as aninclusive advisor </p>
               
-              <p class="hero-subtitle hidden-xs services-text">Ian brings positive changebacked by over 30 years sales expertise.Based West Sussex with National andInternational coverage and experience.17 years independent commercial consultantunder the banner of RSC Associates Ltd andStright-2 Ltd</p>
+              <p class="hero-subtitle hidden-xs services-text">Ian brings positive changebacked by over 30 years sales expertise.Based West Sussex with National andInternational coverage and experience.17 years independent commercial consultantunder the banner of RSC Associates Ltd and Stright-2 Ltd</p>
               
        
             </div>
@@ -606,7 +614,7 @@
 
 
     <!-- Clients -->
-    <section class="section-wrap bg-light pb-mdm-50 pb-130">
+    <section class="section-wrap bg-light pb-mdm-50 pb-130" style="margin-top:50px;">
       <!-- <div class="container">  -->
 
         <div class="row heading">
@@ -653,15 +661,24 @@
               <div class="contact-icon">
                 <i class="icon icon-Phone"></i>
               </div>
-              <h6>Call Us</h6>
-              <a href="tel:07962277810"><span>07962 277810</span></a>
+              <h6>Ian Martin</h6>
+              <a href="tel:07962277810"><span> 07962 277810</span></a>
+              <br><br><br>
+
+              <div class="contact-icon">
+                <i class="icon icon-Phone"></i>
+              </div>
+              <h6>Lorraine Jones</h6>
+              <a href="tel:07962277810"><span> 07962 277810</span></a>
+              
+              
             </div> <!-- end phone number -->
 
             
           </div>
 
           <div class="col-md-8">
-            <form id="contact-form" action="#">
+            <form id="contactform" onsubmit="return sendMail(this);">
 
               <div class="row contact-row">
                 <div class="col-md-6 contact-name">
@@ -741,6 +758,7 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript"  src="js/mail.js"></script>
 
 
 
