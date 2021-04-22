@@ -51,6 +51,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="img/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
 	<script type="text/javascript">
 		(function() {
@@ -112,7 +113,7 @@
                   </li>
                 
                   <li>
-                    <a href="#about-us">About Us</a>
+                    <a href="#our-clients">Our Clients</a>
                   </li>                         
               
                   <li>
@@ -614,7 +615,7 @@
 
 
     <!-- Clients -->
-    <section class="section-wrap bg-light pb-mdm-50 pb-130" style="margin-top:50px;">
+    <section class="section-wrap bg-light pb-mdm-50 pb-130" id="our-clients" style="margin-top:50px;">
       <!-- <div class="container">  -->
 
         <div class="row heading">
@@ -645,7 +646,7 @@
         <div class="row heading">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h2 class="text-center bottom-line">Contact Us</h2>
-            <p class="subheading">Dont hesitate to get touch please fill out this form and we'll get back to you within 48hrs. We hand picked to provide the right balance of skills to work.</p>
+            <p class="subheading">Don’t hesitate to get in touch. Please fill out this form and we will get back to you shortly. Alternatively we would be delighted to talk to you so feel free to give us a call.</p>
           </div>
         </div>
 
@@ -669,7 +670,7 @@
                 <i class="icon icon-Phone"></i>
               </div>
               <h6>Lorraine Jones</h6>
-              <a href="tel:07962277810"><span> 07962 277810</span></a>
+              <a href="tel:07962277810"><span>  07825 136518</span></a>
               
               
             </div> <!-- end phone number -->
@@ -679,7 +680,7 @@
 
           <div class="col-md-8">
             <form id="contactform" onsubmit="return sendMail(this);">
-
+             
               <div class="row contact-row">
                 <div class="col-md-6 contact-name">
                   <input name="name" id="name" type="text" placeholder="Name*">
@@ -691,6 +692,8 @@
 
               <input name="subject" id="subject" type="text" placeholder="Subject"> 
               <textarea name="comment" id="comment" placeholder="Message"></textarea>
+              <div class="g-recaptcha" data-sitekey="6LeI7bMaAAAAAHRsaJzx8YJ7cg1rTZ9mHVkT8Ncs"></div><br><br>
+              
               <input type="submit" class="btn btn-lg btn-color btn-submit" value="Send Message" id="submit-message">
               <div id="msg" class="message"></div>
             </form>
