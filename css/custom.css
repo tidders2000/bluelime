@@ -84,19 +84,26 @@
     background-color:#f7f7f7!important ;
   }
 
+  .proff-button{
+    background-color: grey;
+    border-radius: 5px;;
+  }
+
   /*fix slider alignment issuess*/
   @media (max-width: 576px) { 
     .owl-wrapper-outer{
-      height:300px!important;
+      height:500px!important;
     }
   #owl-slider-one-img .owl-wrapper-outer{
-    height:568px!important;
+    height:700px!important;
   }
+
   .hero-subtitle {
     font-size: 12px!important;
   }
   .hero-message{
   vertical-align: 0px!important;
+  padding-top:30%;
   }
   .hero-message h1{
    font-size:18px!important;
@@ -110,28 +117,65 @@
   }
   
   .small-align{
-    vertical-align: middle!important;
+    /* vertical-align: middle!important; */
+    padding-top:50%;
+  }
+
+  .footer-socials a{
+    font-size: 7px!important;
+    padding:5px;
+  }
+  .proff-button{
+    font-size: 7px;
+  }
+  .ian-list li{
+    font-size: 8px!important;
   }
    }
 /* corrects first slider so full height*/
    @media (min-width: 768px) { 
    .hero-wrap{
-     height:560px!important;
+     height:750px!important;
    }
-
+   .proff-button{
+    font-size: 10px;
+  }
+  .ian-list li{
+    font-size: 14px!important;
+  }
+  .accordion{
+    padding-top: 10px;
+  }
+   
 .container-full-height{
   height:600px!important;
 }
+.hero-holder{
+  padding-top:20%!important;
+}
+.hero-message{
+  vertical-align: 0!important;
+
+}
+
 
    }
    
    @media (min-width: 1000px) { 
     .hero-wrap{
-      height:726px!important;
+      height:900px!important;
     }
+
  
  .container-full-height{
    height:726px!important;
  }
+
+ .proff-button{
+  font-size: 16px;
+}
+.ian-list li{
+  font-size: 20px!important;
+}
  
     }
