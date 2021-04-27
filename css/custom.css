@@ -85,10 +85,18 @@
   }
 
   .proff-button{
-    background-color: grey;
-    border-radius: 5px;;
+   background-color:transparent!important; 
+    border-radius: 5px;
+    color:#303030;
+    font-weight: 700;
   }
-
+  .ian-list li{
+    padding-bottom: 5px;
+  }
+.logo-pad{
+  padding-left: 50px;
+  padding-right: 50px;
+}
   /*fix slider alignment issuess*/
   @media (max-width: 576px) { 
     .owl-wrapper-outer{
@@ -126,10 +134,18 @@
     padding:5px;
   }
   .proff-button{
-    font-size: 7px;
+    font-size: 6px;
   }
   .ian-list li{
     font-size: 8px!important;
+  }
+
+  .logo_image{
+    height:30%;
+    width:30%;
+  }
+  .container-full-height{
+    height:700px!important;
   }
    }
 /* corrects first slider so full height*/
@@ -157,6 +173,10 @@
   vertical-align: 0!important;
 
 }
+.logo_image{
+  height:20%;
+  width:20%;
+}
 
 
    }
@@ -166,7 +186,11 @@
       height:900px!important;
     }
 
- 
+    .logo_image{
+      height:25%;
+      width:25%;
+    }
+    
  .container-full-height{
    height:726px!important;
  }
