@@ -135,6 +135,7 @@
   }
   .proff-button{
     font-size: 6px;
+    padding-bottom: 5px;
   }
   .ian-list li{
     font-size: 8px!important;
@@ -162,6 +163,8 @@
   .accordion{
     padding-top: 10px;
   }
+
+  .mobile-break { display: none; }
    
 .container-full-height{
   height:600px!important;
