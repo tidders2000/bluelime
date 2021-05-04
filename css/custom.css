@@ -89,6 +89,8 @@
     border-radius: 5px;
     color:#303030;
     font-weight: 700;
+    padding-bottom: 5px!important;
+    padding-top: 5px;
   }
   .ian-list li{
     padding-bottom: 5px;
@@ -135,7 +137,8 @@
   }
   .proff-button{
     font-size: 6px;
-    padding-bottom: 5px;
+  
+    padding-top:5px;
   }
   .ian-list li{
     font-size: 8px!important;
