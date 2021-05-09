@@ -209,3 +209,136 @@
 }
  
     }
+
+  /*---------- INDICATORS THUMBNAIL CONTROL ----------*/
+ .carousel-indicators {
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0;
+  padding: 2px 0;
+  cursor: e-resize;
+  overflow-x: auto;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  background: rgba(240, 241, 236, 0.7);
+}
+ .carousel-indicators li {
+  width: 33.10%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  margin: 0 1px;
+  text-indent: 0;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  background-color: rgba(82, 139, 152, 0.9);
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+ .carousel-indicators .active {
+  height: 100%;
+  margin: 0 1px;
+  width: 33.10%;
+  background-color: transparent;
+  background-color: rgba(82, 139, 152, 0.9);
+}
+.carousel-indicators li img{
+  width: 25%;
+  float: left;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.carousel-indicators .active img{
+  opacity: 0.6;
+}
+.carousel-indicators > li > div{
+  margin: 0;
+  width: 75%;
+  overflow: hidden;
+  text-align: left;
+  padding: 4px 10px;
+}
+.carousel-indicators > li > div > h5{
+  padding: 0;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 0 4px 0;
+  white-space: normal;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+}
+ .carousel-indicators > li > div > p{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 11px;
+  text-align: justify;
+  letter-spacing: 1px;
+   white-space: normal;
+   font-family: 'Montserrat', sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+}
+.carousel-indicators::-webkit-scrollbar {
+  margin: 0;
+  padding: 0;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.3);
+}
+ .carousel-indicators::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+@media screen and (min-width: 768px) {
+ .carousel-indicators {
+    bottom: 0;
+  }
+}
+
+/*------------------------------------------------------*/
+/* RESPONSIVE
+/*------------------------------------------------------*/
+
+/*---------- MEDIA 480px ----------*/
+@media only screen and (max-width: 480px) {
+  /*---------- INDICATORS THUMBNAIL CONTROL ----------*/
+ .carousel-indicators li img{
+    width: 50%;
+  }
+ .carousel-indicators > li > div{
+    width: 50%;
+	padding: 2px;
+  }
+.carousel-indicators > li > div > h5{
+    font-size: 9px;
+  }
+ .carousel-indicators > li > div > p{
+    display: none;
+  }
+  /*---------- SLIDE CAPTION ----------*/
+  .in_th_026_slide.in_th_026_slide_right{
+    right: 25%;
+  }
+}
+
+/*---------- MEDIA 481px - 600px ----------*/
+@media (min-width: 481px) and (max-width: 600px) {
+  /*---------- INDICATORS THUMBNAIL CONTROL ----------*/
+.carousel-indicators > li > div{
+	padding: 2px;
+  }
+ .carousel-indicators > li > div > h5{
+    font-size: 9px;
+  }
+ .carousel-indicators > li > div > p{
+   font-size: 9px;
+   text-align: left;
+  }
+}
