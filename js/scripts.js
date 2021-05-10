@@ -466,7 +466,7 @@
                 // transitionStyle: "fadeUp",
                 autoHeight: true,
                 lazyLoad: true,
-                navigation: false,
+                navigation: true,
                 slideSpeed: 300,
                 singleItem: true,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
