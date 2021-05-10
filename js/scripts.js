@@ -377,7 +377,7 @@
                 paginationSpeed: 200,
                 pagination: true,
                 paginationNumbers: true,
-                URLhashListener:true,
+               
 
             });
 
@@ -417,7 +417,7 @@
               itemsDesktop: [1199,3],
               itemsDesktopSmall: [979,3],
               pagination: false,
-              URLhashListener:true,
+             
 
             });
 
@@ -457,7 +457,7 @@
                 singleItem: true,
                 lazyLoad: true,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-                URLhashListener:true,
+            
             });
 
              // Owl Hero Slider 2
@@ -466,11 +466,12 @@
                 // transitionStyle: "fadeUp",
                 autoHeight: true,
                 lazyLoad: true,
-                navigation: true,
+                navigation: false,
                 slideSpeed: 300,
                 singleItem: true,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
                 URLhashListener:true,
+                startPosition: 'audit'
          
             });
 
@@ -485,7 +486,7 @@
                 slideSpeed: 300,
                 singleItem: true,
                 navigationText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-                URLhashListener:true,
+             
             });
 
 
